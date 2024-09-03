@@ -1,0 +1,159 @@
+/* Reset básico para remover estilos padrão dos navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #DBEAFE; /* Azul Claro */
+    color: #1E3A8A; /* Azul Escuro */
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #1E3A8A; /* Azul Escuro */
+    color: #FFFFFF; /* Branco */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para o menu de navegação */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFFFFF; /* Branco */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #3B82F6; /* Azul Médio */
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 40px 20px;
+}
+
+/* Estilos para as seções */
+section {
+    margin-bottom: 40px;
+    background-color: #FFFFFF; /* Branco */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos específicos para títulos dentro das seções */
+section h2 {
+    margin-bottom: 15px;
+    color: #1E3A8A; /* Azul Escuro */
+    border-bottom: 2px solid #3B82F6; /* Azul Médio */
+    padding-bottom: 10px;
+}
+
+/* Estilos para listas dentro das seções */
+section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Estilos para o formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    display: block;
+    color: #1E3A8A; /* Azul Escuro */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #3B82F6; /* Azul Médio */
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #1E3A8A; /* Azul Escuro */
+}
+
+/* Estilos para o botão de envio */
+button[type="submit"] {
+    background-color: #3B82F6; /* Azul Médio */
+    color: #FFFFFF; /* Branco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #1E3A8A; /* Azul Escuro */
+}
+
+/* Estilos para os projetos no portfólio */
+.projeto {
+    margin-bottom: 20px;
+}
+
+.projeto h3 {
+    margin-bottom: 10px;
+    color: #1E3A8A; /* Azul Escuro */
+}
+
+.projeto p {
+    margin-bottom: 10px;
+}
+
+.projeto a {
+    color: #3B82F6; /* Azul Médio */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.projeto a:hover {
+    color: #1E3A8A; /* Azul Escuro */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #1E3A8A; /* Azul Escuro */
+    color: #FFFFFF; /* Branco */
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
